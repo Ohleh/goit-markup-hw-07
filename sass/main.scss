@@ -1,0 +1,41 @@
+@import "../sass/utils/variables";
+@import "../sass/utils/placeholders";
+@import "../sass/utils/gen-utils";
+
+// logo
+@import "../sass/components/logo";
+
+// index__nav  --  секция навигации
+@import "../sass/components/nav";
+
+// index__contact-nav  --  секция контактов
+@import "../sass/components/contact-nav";
+
+// index__hero  --  секция hero
+@import "../sass/components/hero";
+
+// index__benefits  --  секция преимуществ
+@import "../sass/components/benefits";
+
+// index__whatwedo  --  секция Чем мы занимаемся
+@import "../sass/components/whatwedo";
+
+// index__our-team  --  секция Наша команда
+@import "../sass/components/our-team";
+
+// index__customer  --  секция постоянныe клиенты
+@import "../sass/components/customer";
+
+// index  portfolio__footer  --  секция футер
+@import "../sass/components/footer";
+
+// --
+//  portfolio__button-portfolio  -- кнопоки портфолио
+@import "../sass/components/button-portfolio";
+
+//  portfolio__product-portfolio  -- продукти портфолио
+@import "../sass/components/product-portfolio";
+
+// --
+//  modal-window
+@import "../sass/components/modal-window";

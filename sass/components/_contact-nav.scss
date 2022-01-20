@@ -1,0 +1,48 @@
+.contact-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+.contact-nav__item {
+  + {
+    .contact-nav__item {
+      margin-left: 50px;
+    }
+  }
+}
+.contact-nav__link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  fill: $accent-color-button;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $accent-color-button;
+    text-decoration: none;
+    fill: $accent-color-button;
+  }
+  &:focus {
+    color: $accent-color-button;
+    text-decoration: none;
+    fill: $accent-color-button;
+  }
+}
+.contact-nav__pic {
+  fill: $primary-text-color;
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+}

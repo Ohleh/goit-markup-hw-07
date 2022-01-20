@@ -1,0 +1,79 @@
+.customer__headline {
+  color: var(--secondary-text-color);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  padding-top: 94px;
+}
+
+.customer__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 94px;
+  margin: 0 auto;
+  padding-left: 0;
+  list-style: none;
+}
+
+.customer__item {
+  display: inline-block;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  -webkit-border-radius: 4px;
+          border-radius: 4px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition-property: border;
+  -o-transition-property: border;
+  transition-property: border;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  padding: 16px 32px;
+}
+
+.customer__item + .customer__item {
+  margin-left: 30px;
+}
+
+.customer__name {
+  width: 106px;
+  height: 60px;
+  position: absolute;
+  fill: var(--social-base-color);
+  border-color: var(--social-base-color);
+  -webkit-transition-property: fill, border-color;
+  -o-transition-property: fill, border-color;
+  transition-property: fill, border-color;
+  -webkit-transition-duration: 250ms;
+       -o-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+       -o-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.customer__name:hover,
+.customer__name:active {
+  fill: var(--as-main-button-color);
+}
+
+.customer__item:hover,
+.customer__item:active {
+  border: 1px solid var(--as-main-button-color);
+}
+/*# sourceMappingURL=customer.css.map */
