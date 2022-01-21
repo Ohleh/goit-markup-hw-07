@@ -33,7 +33,7 @@
     color: $accent-color-button;
   }
 }
-.nav__link__marker {
+.nav__link-marker {
   position: relative;
   &::after {
     content: "";
@@ -58,7 +58,7 @@
     }
   }
 }
-.nav__link__marker--on {
+.nav__link-marker--on {
   &::after {
     content: "";
     position: absolute;

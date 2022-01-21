@@ -26,8 +26,8 @@
 }
 .button-portfolio__item:hover,
 .button-portfolio__item:focus {
-  color: var(--button-hover-text);
-  background-color: var(--accent-color);
+  color: $button-hover-text;
+  background-color: $accent-color-button;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08),
     0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }

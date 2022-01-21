@@ -30,7 +30,7 @@
   display: flex;
   justify-content: flex-end;
 }
-.modal__close__button {
+.modal__close-button {
   position: relative;
   box-sizing: border-box;
   cursor: pointer;
@@ -45,9 +45,9 @@
   margin-right: 8px;
   fill: $secondary-text-color;
 }
-.modal__close__button:focus,
-.modal__close__button:hover {
-  fill: var(--accent-color);
+.modal__close-button:focus,
+.modal__close-button:hover {
+  fill: $accent-color-button;
 }
 .modal__close__link {
   position: absolute;

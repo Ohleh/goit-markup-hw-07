@@ -200,8 +200,8 @@ textarea {
   margin-right: 10px;
 }
 
-.contact-nav__link:hover,
-.contact-nav__link:focus {
+.contact-nav .contact-nav__link:hover,
+.contact-nav .contact-nav__link:focus {
   color: var(--accent-color);
   text-decoration: none;
   fill: var(--as-main-button-color);

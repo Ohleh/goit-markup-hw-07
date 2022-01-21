@@ -118,11 +118,11 @@ textarea {
   color: #2196f3;
 }
 
-.nav__link__marker {
+.nav__link-marker {
   position: relative;
 }
 
-.nav__link__marker::after {
+.nav__link-marker::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -138,15 +138,15 @@ textarea {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav__link__marker:hover::after {
+.nav__link-marker:hover::after {
   background-color: #2196f3;
 }
 
-.nav__link__marker:focus::after {
+.nav__link-marker:focus::after {
   background-color: #2196f3;
 }
 
-.nav__link__marker--on::after {
+.nav__link-marker--on::after {
   content: "";
   position: absolute;
   width: 100%;
@@ -194,7 +194,7 @@ textarea {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  fill: #2196f3;
+  fill: #757575;
   -webkit-transition-property: color;
   -o-transition-property: color;
   transition-property: color;
@@ -206,23 +206,17 @@ textarea {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contact-nav__link:hover {
-  color: #2196f3;
-  text-decoration: none;
-  fill: #2196f3;
-}
-
-.contact-nav__link:focus {
-  color: #2196f3;
-  text-decoration: none;
-  fill: #2196f3;
-}
-
 .contact-nav__pic {
-  fill: #757575;
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+
+.contact-nav .contact-nav__link:hover,
+.contact-nav .contact-nav__link:focus {
+  color: #2196f3;
+  text-decoration: none;
+  fill: #2196f3;
 }
 
 .pre-hero__line {
@@ -272,7 +266,7 @@ textarea {
   margin-bottom: 200px;
 }
 
-.hero__button__text {
+.hero__button-text {
   color: white;
   font-family: Roboto, VHelvetica Neue, sans-serif;
   font-style: normal;
@@ -350,6 +344,7 @@ textarea {
   letter-spacing: 3%;
   margin-top: 10px;
   margin-bottom: 0;
+  color: #757575;
 }
 
 .whatwedo__headline {
@@ -387,7 +382,7 @@ textarea {
   margin-left: 30px;
 }
 
-.whatwedo__item__title {
+.whatwedo__item-title {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -498,6 +493,7 @@ textarea {
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 16px;
+  color: #757575;
 }
 
 .our-team__social {
@@ -514,7 +510,7 @@ textarea {
   list-style: none;
 }
 
-.our-team__social__link {
+.our-team__social-link {
   height: 44px;
   width: 44px;
   fill: #afb1b8;
@@ -539,21 +535,21 @@ textarea {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-team__social__link:hover,
-.our-team__social__link:focus {
+.our-team__social-link:hover,
+.our-team__social-link:focus {
   fill: #ffffff;
   background-color: #2196f3;
 }
 
-.our-team__social__list + .our-team__social__list {
+.our-team__social-list + .our-team__social-list {
   margin-left: 10px;
 }
 
-.our-team__social__list:first-child {
+.our-team__social-list:first-child {
   margin-left: 32px;
 }
 
-.our-team__social__list:last-child {
+.our-team__social-list:last-child {
   margin-right: 32px;
 }
 
@@ -794,6 +790,7 @@ textarea {
 }
 
 .footer__subscribe__button {
+  cursor: pointer;
   position: relative;
   min-width: 200px;
   height: 50px;
@@ -876,8 +873,8 @@ textarea {
 
 .button-portfolio__item:hover,
 .button-portfolio__item:focus {
-  color: var(--button-hover-text);
-  background-color: var(--accent-color);
+  color: white;
+  background-color: #2196f3;
   -webkit-box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.12), 0 1px 2px 0 rgba(0, 0, 0, 0.08), 0 3px 1px 0 rgba(0, 0, 0, 0.1);
 }
@@ -1061,7 +1058,7 @@ textarea {
           justify-content: flex-end;
 }
 
-.modal__close__button {
+.modal__close-button {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1079,9 +1076,9 @@ textarea {
   fill: #212121;
 }
 
-.modal__close__button:focus,
-.modal__close__button:hover {
-  fill: var(--accent-color);
+.modal__close-button:focus,
+.modal__close-button:hover {
+  fill: #2196f3;
 }
 
 .modal__close__link {

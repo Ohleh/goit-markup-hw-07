@@ -8,10 +8,8 @@
   list-style: none;
 }
 .contact-nav__item {
-  + {
-    .contact-nav__item {
-      margin-left: 50px;
-    }
+  & + .contact-nav__item {
+    margin-left: 50px;
   }
 }
 .contact-nav__link {
@@ -25,24 +23,19 @@
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  fill: $accent-color-button;
+  fill: $primary-text-color;
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  &:hover {
-    color: $accent-color-button;
-    text-decoration: none;
-    fill: $accent-color-button;
-  }
-  &:focus {
-    color: $accent-color-button;
-    text-decoration: none;
-    fill: $accent-color-button;
-  }
 }
 .contact-nav__pic {
-  fill: $primary-text-color;
   width: 16px;
   height: 16px;
   margin-right: 10px;
+}
+.contact-nav .contact-nav__link:hover,
+.contact-nav .contact-nav__link:focus {
+  color: $accent-color-button;
+  text-decoration: none;
+  fill: $accent-color-button;
 }

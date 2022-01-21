@@ -59,6 +59,7 @@
   margin: 0 auto;
   padding-top: 10px;
   padding-bottom: 16px;
+  color: $primary-text-color;
 }
 .our-team__social {
   display: flex;
@@ -67,7 +68,7 @@
   padding: 0;
   list-style: none;
 }
-.our-team__social__link {
+.our-team__social-link {
   height: 44px;
   width: 44px;
   fill: $social-base-color;
@@ -82,13 +83,13 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-team__social__link:hover,
-.our-team__social__link:focus {
+.our-team__social-link:hover,
+.our-team__social-link:focus {
   fill: $primary-bg-color;
   background-color: $accent-color-button;
 }
-.our-team__social__list {
-  & + .our-team__social__list {
+.our-team__social-list {
+  & + .our-team__social-list {
     margin-left: 10px;
   }
   &:first-child {
